@@ -8,7 +8,10 @@ body {
 #logo {
     margin: 0px;
     padding: 8px;
-    font-family: "Fredoka One", sans-serif;
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 300%;
     width: 20%;
     text-shadow: 
     1px 1px 0px black, /*Bottom-right shadow*/
@@ -22,10 +25,10 @@ ul {
 }
 
 body > header {
-    background-color: orange;
+    background-color: #011638;
     color:white;
     display: flex;
-    height: 12vh;
+    height: 10vh;
     align-items: center;
     justify-content: space-around;
 }
@@ -57,6 +60,13 @@ body > main article {
     margin: auto;
 }
 
+body > main aside {
+    background-color: #a76fed;
+    padding-left: 32px;
+    align-items: center;
+    width: 17%;
+}
+
 #main-content {
     display: flex;
     justify-content: space-around;
@@ -75,8 +85,11 @@ h2 {
 }
 
 body > footer {
-    background-color: orange;
+    background-color: #2e294e;
+    height: 10vh;
+    color: white;
     display: flex;
+    align-items: center;
 }
 
 img {
